@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--archivos de disenno-->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/perfil.css">
+    <link rel="stylesheet" href="css/about_me.css">
+    <link rel="stylesheet" href="css/skills.css">
+    <link rel="stylesheet" href="css/config.css">
+    <!--icono disenno-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@40,700,0,0" />
+<body>
+    <div class="pantalla">
+        <!--Header de la pagina-->
+        <header>
+            <h2>@Vane</h2>
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+        </header>
+        <!--Seccion del perfil-->
+        <div class="perfil">
+            <div class="img-perfil">
+                <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAPFBMVEXk5ueutLepsLPo6uursbXJzc/p6+zj5ea2u76orrKvtbi0ubzZ3N3O0dPAxcfg4uPMz9HU19i8wcPDx8qKXtGiAAAFTElEQVR4nO2d3XqzIAyAhUD916L3f6+f1m7tVvtNINFg8x5tZ32fQAIoMcsEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQRAEQTghAJD1jWtnXJPP/54IgNzZQulSmxvTH6oYXX4WS+ivhTbqBa1r26cvCdCu6i0YXbdZ0o4A1rzV+5IcE3YE+z58T45lqo7g1Aa/JY5tgoqQF3qb382x7lNzBLcxft+O17QUYfQI4IIeklKsPSN4i6LKj/7Zm8n99RbHJpEw9gEBXNBpKIYLJqKYRwjOikf//r+J8ZsVuacbqCMNleI9TqGLGqMzhnVdBOdd6F/RlrFijiCoVMk320CBIahUxTWI0KKEcJqKbMdpdJb5QvdHq6wCI5qhKlgGMS/RBHkubWDAE+QZxB4xhCyDiDkLZxgGEVdQldzSKbTIhmZkFkSEPcVvmBn2SMuZB9od7fQDsMiDdKJjFUSCQarM5WirZ3C2TT/htYnyPcPfgrFHWz0BI74gr6J/IZiGUxAZGQLqmvQLTrtE/Go4YxhVRIpEw+sww1IIcqr5NKmUUzLF3d4/qPkYIp2T/obPuemlojFUR4t9Q2Vojhb7BmgElWHzLPH8hucfpefPNFTVgs9h1AdU/Pin96vwWbWdf+X9Absn3OdO34aMdsDnP8WgKYisTqI6CkNGqZQo1XA6Ef6AU32SJzOcBukHPF07/xNSgmHKa5BOhtezv6mA/rYJpwXNAnbRZ1XuF3BzDcO3vpA3+ny2909gbqE4hhD3LIPhLLyBNhPZvbZ3B+3tPYa18A7auSlXQayKwTPNLKDcuOB0xPYKDPFTkWsevQPRZ1J8Hji9I1KQ34r7hZhrwNwOZ97QxNx0drwn4QI0wQk1DcEsfKCWKdxVvxPSNUIp/knmAXT+nT+Ko3+0H96rcNb3m1fx7MBTJdeBJ7uFcWsc0wvgAsC4pROW0l2inbAmIBv/7GZmuhQH6API2rr8T0e6yuZJ+80A9LZeG62T3tik31XwxtwZcizKuTHkMjB1WdZde4Kmic/A5ZI3rr1ae21d08PlVHYfAaxw9G9CYRbJ+8ZdbTcMRV1XM3VdF0M32vtoTdZ0+u29s0OttJ5bz64UwinjaFMVY9vkqc3KKSxN21Xl+0L4Q3Vuv1tYl0pqnX6ms4XetFz7gdZVAgUEoJntfOUe4ZwsHd9FzqQ3Vv6xe41l0XJcqcKl6TZvlv7ClAW3BsqQW4X7ypApB8dmTgK4IX5wvqIVj33HtD2qSG4BqznxdIefL27Y4sahi0MdIdvUsDva8agGGbCtITmCY31MHD2O0uIdh/0rJDQ1VX5Zdxz3rR2QDbv6qXl9vudzqQtGm1Jv9LDXOsfvvB7VcZ8PDKD0mQ1VHPYQ9O+Yj4hR1IUD8rBnn3ho2m8oQMxbCFiKlL2ioSW5heeJqegED52CzxCtcGD3Kv8Wms9EYLyUhwaFIhSMBClevWEmiK/Iaogu4H7sg6ppQhQG8RUqivuTGOAJOg6FfgW0q0M0PQMRMEgXaeNf3SYDZ8PIMI0+wHgr/MgN7wYwpiLjCCqM6ydUDZLQiB6nDdNC8SDyig3jPPpFXGcC9O8BUBDVmgBY59E7Md/35Loe/UVEECEJwYggJjELZ4J71SaQSBeC02n4Da29CayJNA28SAhd2CQyC1Xw6pSmGSINQVuMhAZp4DClan9MgmkDDNmezqwS8sgtlXK/EPBhoaSmYVC/F7IO1jQEdHOlabpKh3+jzLQSTUiq4X2I+Ip/zU8rlaqAvkS21ElR+gqu3zbjjL+hIAiCIAiCIAiCIAiCsCf/AKrfVhSbvA+DAAAAAElFTkSuQmCC" alt="" class="img-perfiles">
+            </div>
+            <div class="informacion">
+                <h1>Hi, im Vane 👋</h1>
+                <p class="descripcion">
+                    Lorem ipsum dolor sit amet consectetur a
+                    dipisicing elit. Eum, architecto totam voluptatum suscipit
+                     itaque odit fugit soluta odio minima expedita laboriosam quod 
+                     ipsum sunt, iusto corporis. Molestiae eveniet eius quis.
+                </p>
+            </div>
+            <div class="estado"> 
+                <span class="material-symbols-outlined">
+                    location_on
+                    </span>
+                    Guatemala, mixco
+            </div>
+            <div class="redes">
+                <span class="material-symbols-outlined">
+                    desktop_windows
+                    </span>
+                    <span class="material-symbols-outlined">
+                        smart_display
+                        </span>
+                        <span class="material-symbols-outlined">
+                            tv_gen
+                            </span>
+            </div>
+        </div>
+        <!--Seccion about me-->
+        <section class="about_me">
+            <div class="btn_bout">About me</div>
+            <div class="div-img">
+                <img src="data:image/jpeg;base64,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" alt="">
+            </div>
+            <h2>Curious About Me?</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae veniam quia voluptas nostrum, et deleniti accusantium quibusdam. Doloribus, accusantium deleniti animi ea exercitationem nesciunt praesentium eligendi laborum nostrum aut eveniet!
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas earum iure cumque repudiandae totam in, officia culpa autem, ut aliquam pariatur esse ad atque laudantium temporibus. Id a dicta quam.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium incidunt molestiae iure recusandae dicta quia et quas provident nihil inventore fuga alias mollitia aliquam, ullam, sint veritatis rerum perspiciatis consequuntur.
+            </p>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis deleniti quod molestias id ab sapiente, impedit eaque alias cupiditate laudantium iusto, libero odit fugit corporis molestiae praesentium dolores maiores saepe?
+            </p>
+            <div class="lista">
+                <p>
+                    Finally, some quick bits about me.
+                </p>
+                <ul>
+                    <li>B.E in computer ENgineeriang</li>
+                    <li>Full time Freelancer</li>
+                    <li>Avid learner</li>
+                    <li>Aspiring indie hacker</li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio iste sit ratione, reprehenderit debitis obcaecati cupiditate dolorum natus tenetur iusto commodi omnis alias nulla aliquid dolorem qui dignissimos, possimus ducimus!</p>
+            </div>
+        </section>
+         <!--Skills-->
+        <section class="skills">
+            <div class="btn-skills"></div>
+            <p>
+                The skills,tools and technologies
+                I am really good at:
+            </p>
+            <div class="todo">
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-javscript.svg" alt="">
+                    <p>Javascript</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-typescript.svg" alt="">
+                    <p>Typescript</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-react.svg" alt="">
+                    <p>React</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-nextjs.svg" alt="">
+                    <p>Next.js</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-nodejs.svg" alt="">
+                    <p>Node.js</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-express.svg" alt="">
+                    <p>Express.js</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-nest.svg" alt="">
+                    <p>Nest.js</p>
+                    </div>
+                <div class="list-slills">
+                     <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-socket.svg" alt="">
+                        <p>Socket.io</p>
+                     </div>
+                <div class="list-slills">
+                     <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-postgresql.svg" alt="">
+                        <p>PostgreSQL</p>
+                </div>
+                <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-mongodb.svg" alt="">
+                    <p>MongoDB</p>
+                </div>
+                 <div class="list-slills">
+                     <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-sass.svg" alt="">
+                        <p>Sass/Scss</p>
+                </div>
+                <div class="list-slills">
+                     <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-tailwindcss.svg" alt="">
+                        <p>Tailwindcss</p>
+                 </div>
+                 <div class="list-slills">
+                    <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-figma.svg" alt="">
+                    <p>Figma</p>
+                    </div>
+                    <div class="list-slills">
+                        <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-cypress.svg" alt="">
+                        <p>Cypress</p>
+                     </div>
+                    <div class="list-slills">
+                        <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-storybook.svg" alt="">
+                        <p>Storybook</p>
+                    </div>
+                    <div class="list-slills">
+                        <img src="https://raw.githubusercontent.com/ROCKEMMA/img/9e5b66b07f5bf76592d5d883e557ceb72fe41c14/icon-git.svg" alt="">
+                         <p>Git</p>
+                        </div>
+
+
+            </div>
+
+            </div>
+        </section>
+    </div>
+    
+</body>
+</html>
